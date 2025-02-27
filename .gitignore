@@ -9,7 +9,7 @@
 # And not these files
 !.gitignore
 !.gitattributes
-!.md
+!README.md
 
 # Don't ignore directories, so we can recurse into them
 !*/
