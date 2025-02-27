@@ -1,0 +1,30 @@
+# Ignore everything
+*
+
+# But not these file types
+!*.txt
+!*.h
+!*.c
+
+# And not these files
+!.gitignore
+!.gitattributes
+
+# Don't ignore directories, so we can recurse into them
+!*/
+
+# But do ignore these directories
+.idea/
+cmake-build-debug/
+
+# Also ignore VS Code settings directory
+.vscode/
+
+# Ignore any build or binary output directories
+**/bin/
+**/build/
+**/out/
+
+# Ignore OS specific files
+.DS_Store
+Thumbs.db
