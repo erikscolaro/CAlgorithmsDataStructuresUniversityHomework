@@ -9,6 +9,7 @@
 # And not these files
 !.gitignore
 !.gitattributes
+!.md
 
 # Don't ignore directories, so we can recurse into them
 !*/
